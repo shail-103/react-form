@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.row{
+	
+	
+	margin:0px!important;
+}
+
+.text-tab-content{
+	
+	margin-top:15px!important;
+	
+}
+
+.breadcrumb{
+	
+	background:transparent!important;
+	
+}
+
+.bt-form{
+	
+	margin:30px 15px;
+	
+	
+}
+
+.app-body  .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+	
+	border-color:transparent!important;
+	
+}
+
+.nav-tabs .nav-link:focus{
+	outline:0px!important;
+	border:0px!important;
+}
+
+
+.breadcrumb-item+.breadcrumb-item::before{
+	
+	
+	content:">"!important;
+}
+
+
+.app-body .nav-item:focus{
+	
+	outline:0px!important;
+}
+
+
+.app-body .nav-tabs{
+	
+	border-bottom:0px!important;
+	
+}
+
+.app-body .nav-tabs .nav-item .nav-link{
+	padding:15px 25px;
+	font-size:14px;
+	display:flex;
+	align-items:center;
+	color:#6c757d;
+	font-weight:600;
+	border: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+	
+}
+
+
+.app-body .nav-tabs .nav-item .nav-link i{
+	font-size:18px;
+	color:#c2cbd8;
+	margin-right:12px;
+	
+	
+}
+
+
+.app-body .breadcrumb-item a{
+	
+	color:#6c757d;
+}
+
+.breadcrumb-item.active{
+	
+	color:#000;
+	font-weight:600;
+}
+
+
+
+.form-subbtn i{
+	margin-right:5px;
+}
+
+.form-subbtn .btn-success{
+	
+	background:#47d439!important;
+	border-color:#47d439!important;
+}
+
+
+.app-body .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active i{
+	
+	color:#0f78ff!important;
+	
+	border-color:transparent;
+}
+
+
+.app-body .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+	
+	color:#000!important;
+	
+	border-color:transparent;
+}
+
+
+.app-body:after {
+    content: '';
+    right:0px;
+	left:0px;
+    position: absolute;
+	
+    top: 52px;
+    background:  #dee2e6;
+    height: 2px;
+}
+.bt-form .form-label{
+	
+	color:#000!important;
+	font-weight:600;
+}
+
